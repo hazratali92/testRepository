@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myscript.js"></script>
+</head>
+
+<body>
+    <h1 id="id1">Java Script calculator</h1>
+    <input readonly class="txt" id="txt1" type="text">
+    <input hidden  class="txt" id="txt2" type="text">
+    <br><br>
+    <button style="width: 55px;" onclick="Clear()">C</button>
+    <button style="width: 55px;" onclick="Calculation('+')">+</button>
+    <button style="width: 55px;"  onclick="Calculation('-')">-</button>
+    <br><br>
+    <button style="width: 55px;"  onclick="Calculation('x')">x</button>
+    <button style="width: 55px;"  onclick="Calculation('/')">/</button>
+    <button style="width: 55px;" id="dotbtn" onclick="decimalcheck()">.</button>
+    
+    <!-- <button style="width: 55px;">%</button> -->
+    <br><br>
+    <button style="width: 55px;" onclick="add(7)">7</button>
+    <button style="width: 55px;" onclick="add(8)">8</button>
+    <button style="width: 55px;" onclick="add(9)">9</button>
+    <br><br>
+    <button style="width: 55px;" onclick="add(4)">4</button>
+    <button style="width: 55px;" onclick="add(5)">5</button>
+    <button style="width: 55px;" onclick="add(6)">6</button>
+    <br><br>
+    <button style="width: 55px;" onclick="add(1,'')">1</button>
+    <button style="width: 55px;" onclick="add(2)">2</button>
+    <button style="width: 55px;" onclick="add(3)">3</button>
+    <br><br>
+    <button style="width: 55px;" onclick="add(0)">0</button>
+    <button style="width: 115px;" onclick="getResult()">=</button>
+    <br><br>
+</body>
+
+</html>
